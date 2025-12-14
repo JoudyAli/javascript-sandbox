@@ -10,7 +10,7 @@ const global = {
   api: {
     // Register your key at https://www.themoviedb.org/settings/api and enter here
     // Only use this for development or very small projects. You should store your key and make requests from a server
-    apiKey: '3fd2be6f0c70a2a598f084ddfb75487c',
+    apiKey: '4841fd7bc109b38162c70b23f77cc026',
     apiUrl: 'https://api.themoviedb.org/3/',
   },
 };
@@ -329,6 +329,10 @@ function displaySearchResults(results) {
   });
 
   displayPagination();
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',
+  });
 }
 
 // Create & Display Pagination For Search

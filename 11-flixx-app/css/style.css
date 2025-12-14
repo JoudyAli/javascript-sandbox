@@ -215,7 +215,7 @@ section h2 {
   padding: 10px;
 }
 
-/* Movie & Show Details */
+/* Movie Details */
 .details-top {
   display: flex;
   justify-content: space-between;
@@ -337,15 +337,16 @@ section h2 {
 
 /* Alert */
 .alert {
+  background: red;
   padding: 10px 20px;
   margin-bottom: 20px;
   border-radius: 5px;
 }
 
-.success {
+.alert-success {
   background: green;
 }
 
-.error {
+.alert-error {
   background: red;
 }
